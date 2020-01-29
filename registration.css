@@ -1,0 +1,278 @@
+body {
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight:700; 
+	font-height:24px;
+	list-style: none;
+}
+.body-page {
+	color: black;
+    background-color: #f9f6f3;
+    background-image: url(img/pattern-light.jpg);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+.body-page .navigation {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	font-size: 16px;
+	line-height: 20px;
+
+}
+.main-header {
+	background-color: black;
+	margin-bottom:50px;
+}
+.conteiner {margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+	    margin-bottom: 50px;
+}
+.body-page .logo-a {
+	order: 0;
+	width: 111px;
+	height: 25px;
+	padding: 23px 20px;
+}
+.logo-img {
+	max-width: 100%;
+	height: auto;
+	transition-property: width,background;
+	transition-duration: 1s;
+	border: none;
+}
+.logo-img:hover {
+ 		width: 90%;
+ 		background: green;
+ 		border: 3px solid grey;
+ 		border-radius: 5px;
+ 		padding: 7px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	width: 620px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu a, .menu-2 a {
+	display: block;
+	padding: 25px 20px;
+	color: white;
+
+}
+.menu a:hover{
+	color: grey;
+}
+.menu-2 a:hover{
+	color: grey;
+}
+a{
+	text-decoration: none;
+}
+.menu-2  {
+	display: flex;
+	max-width: 140px;
+}
+.body-page .menu-2 {
+	margin-left: auto;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+}
+.menu-2 a {
+	position: relative;
+	padding-left: 50px;
+}
+.a-enter::before{
+	content: "";
+	position: absolute;
+	background-image: url("img/login.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.3;
+	width: 16px;
+	height: 18px;
+	left: 24px;
+	top: 27px;
+
+}
+.conteiner {
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+	margin-bottom: 50px;
+}
+ h1{
+ 	margin-left: 40px;
+ }   
+.breadcrumbs {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.breadcrumbs a {
+	color: black;
+}
+.black-square a {
+	margin-right: 10px;
+	
+
+}
+.breadcrumbs .black-square::after{
+	content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    background-color: black;
+    top: 182px;
+    left: auto;
+
+}
+#enter-breadcrumbs{
+	margin-left: 20px;
+}
+h2 {
+	text-align: center;
+	margin-top: 50px;
+}
+.user-data {
+	text-align: center;
+}
+.autoriz {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+	font-weight:700; 
+	font-height:24px;
+}
+.autoriz .input {
+	width: 450px;
+	height: 27px;
+	margin-top: 10px;
+	border: 2px solid black;
+	background: url("img/user.svg")no-repeat;
+	background-position: right;
+	padding: 5px;
+}
+.autoriz .input-lock {
+	width: 450px;
+	height: 27px;
+	margin-top: 10px;
+	border: 2px solid black;
+	background: url("img/lock.svg")no-repeat;
+	background-position: right;
+	padding: 5px;
+
+}
+.autoriz button {
+	width: 450px;
+}
+.check {
+
+}
+button {
+	background: black;
+	color: white;
+	padding: 10px;
+}
+button:hover {
+	background: green;
+}
+.div-check{
+    position: relative;
+    right: 167px;
+        margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+	background: url(img/pattern-grey.jpg);
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.footer-left {
+	width: 33%;
+}
+.footer-center {
+	width: 33%;
+}
+.footer-right {
+	width: 33%;
+}
+.div-footer {
+	
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px;
+}
+#a-map {
+	color: white;
+	    text-decoration: underline;
+}
+#a-map:hover {
+	background: green;
+}
+.footer-left p {
+	padding-right: 70px;
+	line-height: 24px;
+	    margin: auto;
+}
+.footer-center p {text-align: center;
+}
+.footer-right p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+#a-vk {
+	background: black;
+	margin-right: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+#a-fb {
+	background: black;
+	margin-right: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+#a-insta{
+	background: black;
+	margin-right: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+#a-create {
+	background: black;
+	color: white;
+	padding: 10px 30px;
+	
+}
+#a-vk:hover{
+	background: green;
+}
+#a-fb:hover{
+	background: green;
+}
+#a-insta:hover{
+	background: green;
+}
+#a-create:hover{
+	background: green;
+}

@@ -1,0 +1,383 @@
+body {
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight:700; 
+	font-height:24px;
+	min-width: 960px;
+	
+}
+.body-page {
+	color: black;
+    background-color: #f9f6f3;
+    background-image: url(img/pattern-light.jpg);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+.body-page .navigation {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	font-size: 16px;
+	line-height: 20px;
+
+}
+.main-header {
+	background-color: black;
+	margin-bottom:50px;
+}
+.conteiner {margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+	    margin-bottom: 50px;
+}
+.body-page .logo-a {
+	order: 0;
+	width: 111px;
+	height: 25px;
+	padding: 23px 20px;
+}
+.logo-img {
+	max-width: 100%;
+	height: auto;
+	transition-property: width,background;
+	transition-duration: 1s;
+	border: none;
+}
+.logo-img:hover {
+ 		width: 90%;
+ 		background: green;
+ 		border: 3px solid grey;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	width: 620px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu a, .menu-2 a {
+	display: block;
+	padding: 25px 20px;
+	color: white;
+
+}
+.menu a:hover{
+	color: grey;
+}
+.menu-2 a:hover{
+	color: grey;
+}
+a{
+	text-decoration: none;
+}
+.menu-2  {
+	display: flex;
+	max-width: 140px;
+}
+.body-page .menu-2 {
+	margin-left: auto;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+}
+.menu-2 a {
+	position: relative;
+	padding-left: 50px;
+}
+.a-enter::before{
+	content: "";
+	position: absolute;
+	background-image: url("img/login.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.3;
+	width: 16px;
+	height: 18px;
+	left: 24px;
+	top: 27px;
+
+}
+.title {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	margin-bottom: 15px;
+	line-height: 42px;
+}
+.breadcrumbs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 50px;
+	list-style: none;
+}
+.breadcrumbs li {
+	position: relative;
+	margin-right: 42px;
+
+}
+.breadcrumbs a {
+	color: black;
+}
+.breadcrumbs .black-square::after{
+	content:"";
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	transform: rotate(45deg);
+	background-color: black;
+	top: 5px;
+	right: -25px;
+}
+.black-square:hover {
+	opacity: 0.3;
+}
+.care-products:hover {
+     opacity: 0.3;
+}
+.left-column {
+	width: 25%;
+	display: flex;
+    flex-direction: column;
+    float: left;
+}
+.maker-name {
+	display: flex;
+    flex-direction: column;
+}
+.form-product {
+	display: flex;
+    flex-direction: column;
+}
+.group-product {   display: flex;
+    flex-direction: column;
+}
+.what-product {
+	 display: flex;
+    flex-direction: column;
+}
+.button-show {
+	color: white;
+	background: black;
+	    width: 100px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.wrapper-right {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first-product {
+	background: white;
+	background-image: url("img/product-1.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 220px;
+	height: 290px;
+	margin: 7px;
+	
+}
+.first-product p {
+	position: relative;
+    top: 150px;
+    
+}
+.second-product {
+	background: white;
+	background-image: url("img/product-2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 220px;
+	height: 290px;
+	margin: 7px;
+	
+	
+}
+.second-product p {
+     position: relative;
+   top: 150px;
+    
+}
+.third-product {
+	background: white;
+	background-image: url("img/product-3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 220px;
+	height: 290px;
+	margin: 7px;
+	
+	
+}
+.third-product p{
+	position: relative;
+   top: 150px;
+}
+.fourth-product{
+	background: white;
+	background-image: url("img/product-4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 220px;
+	height: 290px;
+	margin: 7px;
+	
+	
+}
+.fourth-product p {
+	position: relative;
+   top: 150px;
+}
+.fifth-product{
+	background: white;
+	background-image: url("img/product-5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 220px;
+	height: 290px;
+	margin: 7px;
+	
+}
+.fifth-product p {
+	position: relative;
+    top: 150px;
+}
+.sixth-product {
+	background: white;
+	background-image: url("img/product-6.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 220px;
+	height: 290px;
+	margin: 7px;
+	
+}
+.sixth-product p{
+	position: relative;
+   top: 150px;
+}
+.span-cost {   
+	background: grey;
+    padding: 10px 30px 10px 30px;
+    transition-property: background, color;
+ }
+ .span-cost:hover {
+ 	color: #c7222d;
+ 	background: #1c9454;
+ 	transition-duration : 2s, 2s;
+ 	transition-delay : 0s, 1s;
+ 
+ }
+.a-buy {
+	background: black;
+	padding: 10px 30px 10px 30px;
+	color: white;
+
+}
+.a-buy:hover {
+	color: red;
+}
+.p-buy {
+	text-align: center;
+}
+.number-page {
+	background: black;
+	color: white;
+	padding: 20px;
+}
+.number-page:hover {
+ 	background: grey;
+}
+footer {
+	background: url(img/pattern-grey.jpg);
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.footer-left {
+	width: 33%;
+}
+.footer-center {
+	width: 33%;
+}
+.footer-right {
+	width: 33%;
+}
+.div-footer {
+	
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px;
+}
+#a-map {
+	color: white;
+	    text-decoration: underline;
+}
+#a-map:hover {
+	background: green;
+}
+.footer-left p {
+	padding-right: 70px;
+	line-height: 24px;
+	    margin: auto;
+}
+.footer-center p {text-align: center;
+}
+.footer-right p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+#a-vk {
+	background: black;
+	margin-right: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+#a-fb {
+	background: black;
+	margin-right: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+#a-insta{
+	background: black;
+	margin-right: 10px;
+    padding: 10px;
+    padding-top: 15px;
+}
+#a-create {
+	background: black;
+	color: white;
+	padding: 10px 30px;
+	
+}
+#a-vk:hover{
+	background: green;
+}
+#a-fb:hover{
+	background: green;
+}
+#a-insta:hover{
+	background: green;
+}
+#a-create:hover{
+	background: green;
+}
